@@ -16,13 +16,16 @@ int main()
     printf("Enter your pocket money amount: ");
     scanf("%d", &money);
 
-    if (money < 50) {
+    if (money < 50)
+    {
         printf("Save money\n");
     }
-    else if (money >= 50 && money <= 200) {
+    else if (money >= 50 && money <= 200)
+    {
         printf("Can buy snacks\n");
     }
-    else {
+    else
+    {
         printf("Can buy a toy\n");
     }
 

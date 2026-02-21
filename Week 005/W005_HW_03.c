@@ -15,13 +15,16 @@ int main()
     printf("Enter the speed: ");
     scanf("%d", &speed);
 
-    if (speed < 30) {
+    if (speed < 30)
+    {
         printf("Slow\n");
     }
-    else if (speed >= 30 && speed <= 60) {
+    else if (speed >= 30 && speed <= 60)
+    {
         printf("Normal\n");
     }
-    else {
+    else
+    {
         printf("Fast\n");
     }
 

@@ -16,13 +16,16 @@ int main()
     printf("Enter the water level: ");
     scanf("%f", &level);
 
-    if (level < 3) {
+    if (level < 3)
+    {
         printf("Low water\n");
     }
-    else if (level >= 3 && level <= 7) {
+    else if (level >= 3 && level <= 7)
+    {
         printf("Medium water\n");
     }
-    else {
+    else
+    {
         printf("High water\n");
     }
 

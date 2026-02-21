@@ -15,13 +15,16 @@ int main()
     printf("Enter the number of toys: ");
     scanf("%d", &toys);
 
-    if (toys < 5) {
+    if (toys < 5)
+    {
         printf("Few toys\n");
     }
-    else if (toys >= 5 && toys <= 10) {
+    else if (toys >= 5 && toys <= 10)
+    {
         printf("Some toys\n");
     }
-    else {
+    else
+    {
         printf("Many toys\n");
     }
 
