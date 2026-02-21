@@ -13,7 +13,7 @@ int main()
 {
     float height;
 
-    printf("Enter height in cm: ");
+    printf("Enter height (in cm:) ");
     scanf("%f", &height);
 
     if (height < 100) {
