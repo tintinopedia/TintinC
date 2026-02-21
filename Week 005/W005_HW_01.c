@@ -16,15 +16,15 @@ int main()
     printf("Enter height (in cm:) ");
     scanf("%f", &height);
 
-    if (height < 100) {
+    if (height < 100)
         printf("Short\n");
-    }
-    else if (height >= 100 && height <= 150) {
+
+    else if (height >= 100 && height <= 150)
         printf("Medium\n");
-    }
-    else {
+
+    else
         printf("Tall\n");
-    }
+
 
     return 0;
 }
