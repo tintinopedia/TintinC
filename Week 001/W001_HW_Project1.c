@@ -31,7 +31,7 @@ Output: Print the share that each person gets!
 
 int main()
 {
-    char name[] = "L";
+    //char name[] = "L";
     int cup = 4;
     float price = 5.5;
     
