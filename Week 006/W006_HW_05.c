@@ -8,3 +8,24 @@ Rules:
 • Else if password OR OTP → "Verify again"
 • Else → "Access denied"
 */
+
+#include <stdio.h>
+int main() {
+    int password;
+    int otp;
+    printf("Have you entered the correct password? choices are: (1 - yes/0 -no). \n");
+    scanf("%d",&password);
+    printf("Did you verify your otp? choose from these: (1 - yes/0 - no). \n");
+    scanf("%d",&otp);
+
+    if (password == 1 && otp == 1)
+        printf("Login success! \n");
+    else if (password == 1 || otp == 1)
+        printf("Verify again! \n");
+    else
+        printf("Access denied! \n");
+    return 0;
+
+
+
+}
