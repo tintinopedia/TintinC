@@ -18,7 +18,7 @@ int main()
     printf("What is your score of the game? \n");
     scanf("%d",&score);
     printf("Do you have a bonus card? options to answer is: (1 - Yes | 0 - No). \n");
-    scanf("%b",&card);
+    scanf("%d",&card);
 
     if (score > 100 && card == 1)
         printf("Super Bonus! \n");

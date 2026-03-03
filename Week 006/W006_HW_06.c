@@ -21,7 +21,7 @@ int main() {
     if (attendance > 75 && marks > 80)
         printf("Gold award!! \n");
     else if (attendance > 75 || marks > 80)
-        printf("Silver avard! \n");
+        printf("Silver award! \n");
     else
         printf("No award. \n");
     return 0;
