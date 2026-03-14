@@ -7,18 +7,11 @@ Write a C program to print numbers from 1 to n, where n is entered by the user.
 
 int main()
 {
-    int num, i;
-
-    printf("Enter the value of n: ");
-    scanf("%d", &num);
-
-    printf("Numbers from 1 to %d are:\n", num);
-
-    for (i = 1; i <= num; i++)
-    {
-        printf("%d ", i);
+    int n,i;
+    printf("Enter the end number: \n");
+    scanf("%d", &n);
+    for (i = 1; i <= n; i++) {
+        printf("%d \n",i);
     }
-
-    printf("\n");
     return 0;
 }

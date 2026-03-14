@@ -4,17 +4,12 @@ Write a C program to find the sum of numbers from 1 to 10 using a for loop.
 */
 
 #include <stdio.h>
-
 int main()
 {
-    int sum = 0;
-
-    for (int i = 1; i <= 10; i++)
-    {
-        sum += i;
+    int number,sum;
+    for (number = 1; number <= 10; number++) {
+        sum = sum + number;
     }
-
-    printf("The sum of numbers from 1 to 10 is: %d\n", sum);
-
+    printf("%d \n", sum);
     return 0;
 }
