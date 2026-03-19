@@ -16,3 +16,14 @@ Row 4 → 4 stars
 Row 3 → 3 stars
 */
 
+#include <stdio.h>
+int main() {
+    int row,col;
+    for (col = 5; col >= 5; col++){
+        for (row = 5; row >= 5; row--){
+            printf("%d",col);
+        }
+        printf("\n");
+    }
+    return 0;
+}
