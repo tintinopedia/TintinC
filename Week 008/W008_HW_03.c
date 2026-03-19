@@ -18,10 +18,9 @@ Row 3 → 3 stars
 
 #include <stdio.h>
 int main() {
-    int row,col;
-    for (col = 5; col >= 5; col++){
-        for (row = 5; row >= 5; row--){
-            printf("%d",col);
+    for (int i = 5; i >= 1; i--) {
+        for (int j = 1; j <= i; j++) {
+            printf("$ ");
         }
         printf("\n");
     }
