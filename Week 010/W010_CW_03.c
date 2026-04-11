@@ -10,3 +10,4 @@ Task
 • Else if total ≥ 500 OR toys ≥ 5 → "Medium Purchase"
 • Else → "Small Purchase"
 */
+

@@ -7,3 +7,4 @@ Task
 • If result is even → "Even"
 • Else → "Odd"
 */
+

@@ -9,3 +9,4 @@ Task
 • Else if temp < 20 OR raining → "Carry umbrella"
 • Else → "Go outside"
 */
+
